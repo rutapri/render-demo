@@ -92,6 +92,7 @@
     "\n",
     "# Initialize app\n",
     "app = dash.Dash(__name__)\n",
+    server = app.server
     "app.title = \"EURUSD-SPX Correlation\"\n",
     "\n",
     "# Create figure\n",
