@@ -45,6 +45,7 @@
     "\n",
     "# Dash app\n",
     "app = dash.Dash(__name__)\n",
+    "server = app.server\n",
     "app.title = \"EURUSD-SPX Correlation\"\n",
     "\n",
     "# Line chart\n",
